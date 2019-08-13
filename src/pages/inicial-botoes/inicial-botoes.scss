@@ -1,0 +1,59 @@
+page-inicial-botoes {
+
+    .button-md-azul{
+
+        color:white;
+        height: 70px;
+        margin-bottom: 5%;
+        padding-right: 65%;
+
+    }
+
+    .button-md-laranja{
+        color: white;
+        height: 70px;
+        margin-bottom: 5%;
+        padding-right: 55%;
+    }
+
+    .button-md-vermelho{
+        color: white;
+        height: 70px;
+        margin-bottom: 5%;
+        padding-right: 65%;
+    }
+
+    .button-md-verde-agua{
+        color: white;
+        height: 70px;
+        margin-bottom: 5%;
+        font-family: Roboto;
+        padding-right: 65%;
+    }
+
+    // .back-button-icon-md {
+    //     color: map-get($colors,verde2);
+    // }
+
+    .myCard{
+        display: block;
+        margin: 0 auto; 
+        width: auto;    // A largura se ajusta conforme a altura
+        height: 42vh;   // Height = x% da tela
+        border-radius: 5px;
+    }
+
+    .imagem-card{
+        display: block;
+        margin: 0 auto; 
+        width: auto;
+        height: 45%;
+
+        
+    }
+
+    .menu {
+        display: block !important;
+    }
+
+}

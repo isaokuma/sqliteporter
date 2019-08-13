@@ -1,0 +1,53 @@
+<!-- <ion-header>
+  <ion-navbar color="verde3" hideBackButton>
+    <ion-title>BioEduca</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-header>
+  <ion-navbar text-center color="navBar" hideBackButton>
+   <ion-buttons right>
+    <button class="menu" ion-button menuToggle="left" icon-only>
+     <ion-icon name="menu"></ion-icon>
+    </button>
+   </ion-buttons>
+   <ion-title>BioEduca</ion-title>
+  </ion-navbar>
+ </ion-header>
+
+
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row class="row">
+      <ion-col col-6>
+        <ion-card text-center padding color="azul" class="myCard" (click)="goToFotos()">
+          <img src='../../assets/imgs/icones/gallery.png' class="imagem-card">
+          <h2 class="texto-card">Galeria de Fotos</h2>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card text-center padding color="laranja" class="myCard" (click)="goToOcorrencias()">
+          <img src='../../assets/imgs/icones/localization.png' class="imagem-card">
+          <h2 class="texto-card">Ocorrência / Centro de origem</h2>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row">
+      <ion-col col-6>
+        <ion-card text-center padding color="vermelho" class="myCard" (click)="goToDatas()">
+          <img src='../../assets/imgs/icones/calendar.png' class="imagem-card">
+          <h2 class="texto-card">Datas de frutificação e floração</h2>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card text-center padding color="verde-agua" class="myCard" (click)="goToInfo()">
+          <img src='../../assets/imgs/icones/info.png' class="imagem-card">
+          <h2 class="texto-card">Informações</h2>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

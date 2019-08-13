@@ -1,0 +1,24 @@
+page-inicial {
+
+    
+    .img-inicial{
+        display: block;
+        margin: 0 auto; 
+        width: auto;    // A largura se ajusta conforme a altura
+        height: 74vh;   // Height = x% da tela
+    }
+
+    .textoBotaoPrincipal{
+        font-size: 18px;
+    }
+
+    .iconeBotaoPrincipal{
+        font-size: 20px;
+    }
+
+    .toolbar-title-md {
+        font-size: 1.45rem !important; 
+    }
+      
+    
+} 
